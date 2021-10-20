@@ -205,16 +205,22 @@
         </a> 
     </li>
 </ul>
+</div>
 <form>
-    <div>
-<h3>Подпишитесь на рассылку</h3>
-    <label for="mail"></label>
-    <input type="mail" name="mail" id="mail" placeholder="E-mail"/>
-    <button type="submit">Подписаться</button>
+    <p class="mailing-title">Подпишитесь на рассылку</p>
+    <div class="mailing-box">
+        <label for="mail"></label>
+        <input type="mail" name="mail" id="mail" placeholder="E-mail" class="mailing-input"/>
+        <button type="submit" class="mailing-button">Подписаться
+            <a href="" class="mailing-link">
+                <svg width="24" height="24">
+                    <use href="./images/sprite.svg#icon-icon-send"></use>
+                </svg>
+            </a> 
+        </button>
+    </div>
+    </form>
 </div>
-</form>
-</div>
-</div>
- </footer>  
+ </footer>   
 </body>
 </html>

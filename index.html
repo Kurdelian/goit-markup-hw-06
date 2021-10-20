@@ -355,15 +355,21 @@
         </a> 
     </li>
 </ul>
+</div>
 <form>
-    <div>
-<h3>Подпишитесь на рассылку</h3>
-    <label for="mail"></label>
-    <input type="mail" name="mail" id="mail" placeholder="E-mail"/>
-    <button type="submit">Подписаться</button>
-</div>
-</form>
-</div>
+    <p class="mailing-title">Подпишитесь на рассылку</p>
+    <div class="mailing-box">
+        <label for="mail"></label>
+        <input type="mail" name="mail" id="mail" placeholder="E-mail" class="mailing-input"/>
+        <button type="submit" class="mailing-button">Подписаться
+            <a href="" class="mailing-link">
+                <svg width="24" height="24">
+                    <use href="./images/sprite.svg#icon-icon-send"></use>
+                </svg>
+            </a> 
+        </button>
+    </div>
+    </form>
 </div>
  </footer>  
  <div class="backdrop is-hidden" data-modal>
@@ -410,9 +416,10 @@
         <input type="checkbox" name="consent" id="consent" class="imput-checkbox visually-hidden"/>
         <label for="consent" class="form-consent">
             <span class="form-span">
-            <svg width="16" height="15" class="icon-checkbox">
+            <svg width="11" height="8" class="icon-checkbox">
                 <use href="./images/sprite.svg#icon-icon-check"></use>
-            </svg></span> Соглашаюсь с рассылкой и принимаю <a href="" class="form-link"> Условия договора</a></label>
+            </svg>
+        </span> Соглашаюсь с рассылкой и принимаю &nbsp;<a href="" class="form-link"> Условия договора</a></label>
     </div>
         <button type="submit" class="form-button">Отправить</button>
     </form>
